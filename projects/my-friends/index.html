@@ -3,6 +3,10 @@
   <head>
     <title>My Friends</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <style>
       body {
         padding-left: 20px;
@@ -14,15 +18,70 @@
         margin: 0;
         font-family: Verdana, Arial;
       }
+
+
+      .contactme-btn {
+        font-family: Roboto, Arial;
+        font-size: 17px;
+        padding: 10px 15px;
+        background-color: rgb(50, 124, 185);
+        color: white;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        border-radius: 4px;
+        margin-top: 20px;
+        transition: background-color 0.2s, opacity 0.1s;
+      }
+      .contactme-btn:hover {
+        background-color: rgb(35, 101, 155);
+      }
+      .contactme-btn:active {
+        opacity: 0.9;
+      }
+
+
+      .tuhin-link {
+        text-decoration: none;
+        color: #4f46e5;
+      }
+      .tuhin-link:hover {
+        text-decoration: underline;
+      }
+      .tuhin-link:active {
+        opacity: 0.7;
+      }
+
+      .nirjhor-link {
+        text-decoration: none;
+        color: #4f46e5;
+      }
+      .nirjhor-link:hover {
+        text-decoration: underline;
+      }
+      .nirjhor-link:active {
+        opacity: 0.7;
+      }
+
+      .tridip-link {
+        text-decoration: none;
+        color: #4f46e5;
+      }
+      .tridip-link:hover {
+        text-decoration: underline;
+      }
+      .tridip-link:active {
+        opacity: 0.7;
+      }
     </style>
   </head>
   <body>
     <p style="margin-bottom: 20px;">
-      This is my "My Friends" project where just for fun I made websites about them.
+      This is my "My Friends" project where just for fun I made websites about my friends.
     </p>
 
     <p style="margin-bottom: 20px;">
-      My current friends that I am working to make website on are: Tuhin, Nirjhor, Tridip.
+      My current friends that I have website on are: Tuhin, Nirjhor, Tridip.
     </p>
 
     <div style="margin-bottom: 200px;">
@@ -30,15 +89,56 @@
         Here you can find the websites about them:
       </p>
 
-      i. <a href="/projects/my-friends/tuhin" style="margin-left: 10px; font-family: Verdana, Arial;">Tuhin</a> [Anime Aijin's owner]
+
+
+      <div>
+        <div style="display: inline-block; width: 10px;">
+          <p style="margin-bottom: 5px;">i.</p>
+          <p style="margin-bottom: 5px;">ii.</p>
+          <p>iii.</p>
+        </div>
+
+        
+        <div style="display: inline-block;">
+          <p style="margin-bottom: 5px;">
+            <a class="tuhin-link" href="/projects/my-friends/tuhin" style="margin-left: 10px; font-family: Verdana, Arial;">Tuhin</a>
+            <span style="color: grey;">[Anime Aijin's owner]</span>
+          </p>
+
+          <p style="margin-bottom: 5px;">
+            <a class="nirjhor-link" href="/projects/my-friends/nirjhor" style="margin-left: 10px; font-family: Verdana, Arial;">Nirjhor</a>
+          </p>
+
+          <p>
+            <a class="tridip-link" href="/projects/my-friends/tridip" style="margin-left: 10px; font-family: Verdana, Arial;">Tridip</a>
+          </p>
+        </div>
+
+
+
+
+        
+      </div>
+
+
+      
+
     </div>
     
 
 
 
     <p>
-      Currently I only have made website on Tuhin and soon I'm gonna make websites about my other friends as well.
+      If you have more ideas to add something fun here contact me:
     </p>
+
+
+    <a href="/contact">
+      <button class="contactme-btn">
+        Contact Me
+      </button>
+    </a>
+
 
   </body>
 
