@@ -1,0 +1,105 @@
+p {
+  font-family: Arial;
+  margin: 0;
+}
+
+
+
+
+
+.btn {
+  background-color: rgb(0, 119, 255);
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.facebook-btn:active {
+  background-color: rgb(19, 92, 175);
+}
+
+
+
+.whole-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  border: 1px solid grey;
+  width: fit-content;
+  margin-left: 150px;
+  padding: 30px;
+  background-color: rgb(162, 210, 252);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+}
+
+.pic-container {
+  margin-bottom: 30px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+/*tuhin-pics*/
+.tuhin-pic {
+  margin-right: 10px;
+}
+
+.tuhin-pic2 {
+  width: 270px;
+}
+
+
+
+
+
+/*sentences*/
+
+.sen-name {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.sen-instagram {
+  margin: 10px 0;
+}
+
+
+
+
+
+
+/*name-colors*/
+.Al, .e3 {
+  color: red;
+}
+
+.Ja, .e2 {
+  color: blue;
+}
+
+.Rif, .e1 {
+  color: darkgreen;
+}
+
+.Tu {
+  color: brown;
+}
+
+.Hi {
+  color: indigo;
+}
+
+.n {
+  color: darkgreen;
+}
+
