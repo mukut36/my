@@ -1,0 +1,117 @@
+p {
+  font-family: Arial;
+  margin: 0;
+}
+
+
+
+
+
+.btn {
+  background-color: rgb(0, 119, 255);
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.facebook-btn:active {
+  background-color: rgb(19, 92, 175);
+}
+
+
+
+.whole-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  border: 1px solid grey;
+  width: fit-content;
+  margin-left: 150px;
+  padding: 30px;
+  background-color: rgb(162, 210, 252);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+}
+
+.pic-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  border: 1px solid grey;
+  height: 300px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+/*tridip-pics*/
+.tridip-pic {
+  margin-right: 10px;
+}
+
+.tridip-pic2 {
+  width: 270px;
+}
+
+
+
+
+
+/*sentences*/
+.sen-name {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.sen-facebook {
+  margin-top: 10px;
+}
+
+.sen-ad1 {
+  margin: 10px, 0;
+}
+
+.sen-ad2 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+
+
+
+
+/*name-colors*/
+.Al, .e3 {
+  color: red;
+}
+
+.Ja, .e2 {
+  color: blue;
+}
+
+.Rif, .e1 {
+  color: darkgreen;
+}
+
+.Tu {
+  color: brown;
+}
+
+.Hi {
+  color: indigo;
+}
+
+.n {
+  color: darkgreen;
+}
+
